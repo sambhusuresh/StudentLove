@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: #750db5;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+
+}
+.header-wrapper{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    color: white;  
+}
+.header-wrapper nav{
+    display: flex;
+    gap: 30px;
+}
+.header-wrapper nav a{
+    color: white;
+    /* margin-right: 25px; */
+}
+/* .header-wrapper nav a:last-child{
+    margin-right: 0px;
+} */
+.banner-one{
+    padding: 100px 0px;
+}
+.banner-wrapper{
+    display: flex;
+    align-items: center;/* vertical alignment */
+    justify-content: space-between;     
+}
+.banner-wrapper>div{
+    width: 50%;
+}
+.banner-wrapper h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.banner-wrapper h1 span> span{
+    color:#750db5;
+}
+.banner-wrapper p{
+    margin: 30px 0px;
+    color: #505050;
+    line-height: 30px;
+}
+
+.text-break{
+    display: block;
+}
+.btn-one{ 
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* padding: 0px 10px; */
+}
+.btn-one a{
+    border-radius: 15px;
+    padding: 15px 30px;
+    font-weight: 600;
+}
+.btn-one a:first-child{
+    color: white;
+    background-color: #ffa92c;
+    
+}
+.btn-one a:last-child{
+    /* background-color: #750db5; */
+    color: #14121f;
+    border: 1px solid #ffa92c;
+}
+
+.the-jobs{
+    padding: 0px 0px 100px;
+}
+.the-jobs h2{
+    margin-bottom: 30px;
+}
+.the-jobs-wrapper{
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+.the-jobs-wrapper>div{
+    padding: 30px;
+    color: white; 
+    border-radius: 15px;
+}
+.the-jobs-wrapper >div > span{
+    display:inline-block;
+    /* color: red; */
+    margin: 10px 0px;
+}
+.the-jobs-wrapper >div >p{
+    margin-bottom: 15px;
+}
+.the-jobs-wrapper >div >div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* padding: 20px 0px; */
+    /* background-color: green; */
+}
+.the-jobs-wrapper >div >div a{
+    padding: 10px 15px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 15px;
+    background-color: transparent;
+    transition: 0.30s;
+}
+.the-jobs-wrapper >div >div a:hover{
+    /* padding: 10px 15px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 15px; */
+    background-color: #ffa92c;
+    color: #333333;
+}
+
+.the-jobs-wrapper>div:nth-child(1){
+    background-color: #0c445c;
+}
+.the-jobs-wrapper>div:nth-child(2){
+    background-color: #5b2c98;
+}
+.the-jobs-wrapper>div:nth-child(3){
+    background-color: #7f3219;
+}
+
+footer{
+    padding: 20px 0px;
+    background-color: #d6d6d6;
+}
+footer p{
+    text-align: center;
+    color: #4254f4;
+}
+@media screen and (min-width: 1200px){
+    .banner-wrapper h1{
+        font-size: 48px; 
+    }  
+}
+
+@media screen and (max-width: 700px) {
+    .header-wrapper{
+       flex-direction: column;
+       text-align: center;
+       gap: 20px;
+    }
+    .header-wrapper nav{
+      justify-content: center;
+     }
+     .text-break{
+        display: inline;
+    }
+    .banner-one{
+        padding: 50px 0px;
+    }
+    .the-jobs{
+        padding: 0px 0px 50px;
+    }
+}
+@media screen and (max-width: 1180px) {
+    .banner-wrapper{
+        flex-direction: column;
+    }
+    .banner-wrapper>div{
+        width: 100%;
+    }
+    .banner-wrapper>div:first-child{
+        text-align: center;
+    }
+    .btn-one{
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .the-jobs-wrapper{
+       flex-direction: column;
+       /* justify-content: center; */
+       text-align: center;
+    }
+    .the-jobs-wrapper>div>div{
+        justify-content: center;
+    }
+    .container>h2{
+        text-align: center;
+    }
+
+}
