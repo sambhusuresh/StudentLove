@@ -8,7 +8,7 @@ Welcome to the first front-end website project, built as part of the **MERN Full
 
 ## 🖥️ Demo
 
-🌟 [Live Preview Coming Soon](https://sambhusuresh.github.io/StudentLove/)  
+🌟 [Live Preview](https://sambhusuresh.github.io/StudentLove/)  
 <!-- Replace # with your live website link later -->
 
 ---
